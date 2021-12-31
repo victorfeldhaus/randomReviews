@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    background-color: hsl(210, 36%, 96%);;
+    color: hsl(209, 61%, 16%);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    font-size: 1.5rem;
+    margin-top: 170px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.2rem;   
+    margin-bottom: 75px;
+
+}
+
+.barrinha::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 75px;
+    background-color: rgb(204, 82, 82);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid rgb(204, 82, 82);
+}
+
+.image h2 {
+    letter-spacing: 0.1rem;
+    line-height: 0.6rem;
+    font-size: 20px;
+}
+
+.image span {
+    line-height: 3rem;
+    font-size: 14px;
+    color: rgb(204, 82, 82);
+    font-weight: bold;
+}
+
+.card p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: rgb(99, 102, 109);
+    margin-bottom: 35px;
+}
+
+.card {
+    margin: 0 auto;
+    width: 600px;
+    background-color: #fff;
+    padding: 20px 45px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+
+.button img {
+    width: 24px;
+    height: 24px;
+}
+
+.button {
+    margin: 0 auto;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-random {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(204, 82, 82);
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn-random:hover {
+  
+    background: rgb(204, 82, 82);
+    color: #fff;
+    transition: 0.8s;
+}
+
+
+
+
+
