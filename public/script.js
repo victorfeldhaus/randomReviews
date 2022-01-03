@@ -6,25 +6,25 @@ let description = document.querySelector(".description")
 
 
 const persons = [{
-    image_url: "/public/assets/person1.jpg",
+    image_url: "public/assets/person1.jpg",
     name: "Jake Gyle",
     job: "WEB DEVELOPER",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,   ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
 },
 {
-    image_url: "/public/assets/model.jpg",
+    image_url: "public/assets/model.jpg",
     name: "Gina Toulz",
     job: "MODEL",
     description: "There are many variations of passages of Lorem Ipsum available,  look even slightly believable Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.",
 },
 {
-    image_url: "/public/assets/engineer.jpg",
+    image_url: "public/assets/engineer.jpg",
     name: "Henry Sthulman",
     job: "ENGINEER",
     description: "Contrary to popular belief, Lorem Ipsum is not simply random from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur",
 },
 {
-    image_url: "/public/assets/photographer.jpg",
+    image_url: "public/assets/photographer.jpg",
     name: "Tayane Jones",
     job: "PHOTOGRAPHER",
     description: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
